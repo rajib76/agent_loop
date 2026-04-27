@@ -1,7 +1,5 @@
 # Agent Loop > Agent Orchestration
 
-*A working note, in the spirit of an LLM wiki entry.*
-
 ## TL;DR
 
 We are building multi-agent orchestration systems because we cannot unlearn the way humans organize work. Humans need orchestration because each human is a narrowly specialized cognitive unit. Agents are not. An agent is an LLM plus a scaffold, and the scaffold is the thing we should be investing in — not the org chart around it. In most cases, **a single well-scaffolded agent in a tight loop will beat a graph of specialist agents passing messages**. Orchestration should be the exception, not the default.
