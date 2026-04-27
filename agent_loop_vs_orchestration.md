@@ -91,11 +91,11 @@ This reframes the design problem:
 | How do we resolve disagreements? | How does the loop self-check?                 |
 | How many agents?                 | How rich is the scaffold?                     |
 
-## A sharper claim
+## A suggestion
 
-Most "multi-agent systems" today are LARPing as organizations. They are reproducing the *symptoms* of human cognitive limits in a substrate that does not have those limits. The symptoms cost tokens, latency, and reliability, and buy very little.
+It might be worth asking whether some of today's multi-agent systems are, in effect, modeled on organizations — reproducing patterns that exist in human teams largely because of human cognitive limits, in a substrate that may not share those limits. If that's the case, some of the cost we pay in tokens, latency, and reliability could be going toward coordination overhead that isn't actually buying us much.
 
-The default architecture should be: **one agent, one loop, rich scaffold.** Reach for orchestration when there is a real boundary that justifies it — not because the problem looks like it would need a team if humans were doing it.
+So one thing worth trying, as a default to consider rather than a rule to follow: **one agent, one loop, rich scaffold** — and reach for orchestration when there's a real boundary that justifies it, rather than because the problem looks like it would need a team if humans were doing it. This may not hold in every case, and it's offered more as a lens than a prescription.
 
 ## Open questions
 
